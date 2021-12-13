@@ -10,7 +10,7 @@
         @content;
     }
 }
-  
+
 @mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
@@ -20,4 +20,24 @@
     display: grid;
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
+}
+
+@mixin boton($bg1, $color1, $bg2, $color2, $border, $display) {
+    display: $display;
+    background-color: $bg1;
+    color: $color1;
+    font-weight: $bold;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: $separacion / 2;
+    border: 1px solid $border;
+    border-radius: 3rem;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: $bg2;
+        color: $color2;
+    }
 }

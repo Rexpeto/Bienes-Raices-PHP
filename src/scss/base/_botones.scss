@@ -1,0 +1,19 @@
+.boton-amarillo-block {
+    @include boton(transparent, $negro, $amarillo, $blanco, $amarillo, block);
+}
+
+.boton-amarillo-inline-block {
+    @include boton(transparent, $negro, $amarillo, $blanco, $amarillo, inline-block);
+}
+
+.imagen-contacto .boton-amarillo-inline-block {
+    @include boton(transparent, $blanco, $amarillo, $negro, $amarillo, inline-block);
+}
+
+.boton-verde {
+    @include boton(transparent, $negro, $verde, $blanco, $verde, block);
+}
+
+.dark-mode .boton-verde {
+    @include boton(transparent, $blanco, $verde, darken($grisOscuro, 10), $verde, block);
+}
