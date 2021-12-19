@@ -58,4 +58,22 @@
         }
 
     }
+
+    .navegacion {
+        a:hover {
+            color: $verde !important;
+        }
+    }
+
+    table.propiedades {
+        thead {
+            background-color: $success;
+        }
+
+        tbody {
+            td {
+                color: $blanco;
+            }
+        }
+    }
 }

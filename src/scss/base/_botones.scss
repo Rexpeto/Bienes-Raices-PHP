@@ -14,6 +14,30 @@
     @include boton(transparent, $negro, $verde, $blanco, $verde, block);
 }
 
+.boton-verde-inline-block {
+    @include boton(transparent, $negro, $verde, $blanco, $verde, inline-block);
+}
+
 .dark-mode .boton-verde {
     @include boton(transparent, $blanco, $verde, darken($grisOscuro, 10), $verde, block);
+}
+
+.dark-mode .boton-verde-inline-block {
+    @include boton(transparent, $negro, $verde, $blanco, $verde, inline-block);
+}
+
+.dark-mode .boton-rojo {
+    @include boton(transparent, $blanco, $rojo, $blanco, $rojo, inline-block);
+}
+
+.boton-rojo {
+    @include boton(transparent, $negro, $rojo, $blanco, $rojo, inline-block);
+}
+
+.dark-mode .boton-rojo-block {
+    @include boton(transparent, $blanco, $rojo, $blanco, $rojo, block);
+}
+
+.boton-rojo-block {
+    @include boton(transparent, $negro, $rojo, $blanco, $rojo, block);
 }
