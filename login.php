@@ -32,7 +32,7 @@
                     $_SESSION['usuario'] = $usuario['email'];
                     $_SESSION['login'] = true;
 
-                    header('location: /admin/');
+                    header('location: admin/');
                 } else {
                     $errores[] = "El usuario no existe o contraseña inválida";
                 }

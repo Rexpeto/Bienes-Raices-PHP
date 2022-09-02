@@ -3,4 +3,4 @@
 
     $_SESSION = [];
 
-    header('location: /');
+    header('location: /Bienes-Raices-PHP/');

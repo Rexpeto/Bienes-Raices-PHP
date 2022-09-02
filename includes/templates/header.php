@@ -13,23 +13,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/build/css/app.css">
+    <link rel="stylesheet" href="/Bienes-Raices-PHP/build/css/app.css">
     <title>Bienes Raíces</title>
 </head>
 <body>
     <header class="header <?php echo $inicio ? 'inicio' : ''; ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/">
-                    <img src="/build/img/logo.svg" alt="Logotipo">
+                <a href="/Bienes-Raices-PHP/">
+                    <img src="/Bienes-Raices-PHP/build/img/logo.svg" alt="Logotipo">
                 </a>
 
                 <div class="mobile-menu">
-                    <img src="/build/img/barras.svg" alt="Menu amburger">
+                    <img src="/Bienes-Raices-PHP/build/img/barras.svg" alt="Menu amburger">
                 </div>
 
                 <div class="derecha">
-                    <img class="dark-mode-btn" src="/build/img/dark-mode.svg" alt="Dark mode">
+                    <img class="dark-mode-btn" src="/Bienes-Raices-PHP/build/img/dark-mode.svg" alt="Dark mode">
                     <nav class="navegacion">
                         <a href="nosotros.php">Nosotros</a>
                         <a href="anuncios.php">Anuncios</a>
